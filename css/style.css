@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    margin: 70px auto;
+    width: 600px;
+   
+}
+h1{
+    
+    margin-bottom: 30px;
+    font-family: 'Manjari', sans-serif;
+}
+.city{
+    border-radius: 40px;
+    padding: 20px;
+    outline: none;
+    width: 400px;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-family: 'Manjari', sans-serif;
+
+}
+input:focus{
+   
+   box-shadow: 5px 5px 5px 5px grey;
+}
+.enter{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100px;
+    border: 1px solid;
+    font-family: 'Manjari', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.display{
+    padding: 20px 5px;
+}
